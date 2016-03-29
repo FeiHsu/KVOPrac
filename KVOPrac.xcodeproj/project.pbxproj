@@ -15,6 +15,10 @@
 		04F624891CAA23CE001AFAE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F624871CAA23CE001AFAE1 /* LaunchScreen.storyboard */; };
 		04F624941CAA23CE001AFAE1 /* KVOPracTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F624931CAA23CE001AFAE1 /* KVOPracTests.m */; };
 		04F6249F1CAA23CE001AFAE1 /* KVOPracUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F6249E1CAA23CE001AFAE1 /* KVOPracUITests.m */; };
+		04F624AE1CAA26AC001AFAE1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F624AD1CAA26AC001AFAE1 /* SecondViewController.m */; };
+		04F624B11CAA2756001AFAE1 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F624B01CAA2756001AFAE1 /* ThirdViewController.m */; };
+		04F624B41CAA27B5001AFAE1 /* ForthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F624B31CAA27B5001AFAE1 /* ForthViewController.m */; };
+		04F624B71CAA2B1B001AFAE1 /* SingleColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F624B61CAA2B1B001AFAE1 /* SingleColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		04F6249A1CAA23CE001AFAE1 /* KVOPracUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVOPracUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F6249E1CAA23CE001AFAE1 /* KVOPracUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOPracUITests.m; sourceTree = "<group>"; };
 		04F624A01CAA23CE001AFAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F624AC1CAA26AC001AFAE1 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		04F624AD1CAA26AC001AFAE1 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		04F624AF1CAA2756001AFAE1 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		04F624B01CAA2756001AFAE1 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		04F624B21CAA27B5001AFAE1 /* ForthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForthViewController.h; sourceTree = "<group>"; };
+		04F624B31CAA27B5001AFAE1 /* ForthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForthViewController.m; sourceTree = "<group>"; };
+		04F624B51CAA2B1B001AFAE1 /* SingleColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleColor.h; sourceTree = "<group>"; };
+		04F624B61CAA2B1B001AFAE1 /* SingleColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleColor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +113,16 @@
 		04F624781CAA23CE001AFAE1 /* KVOPrac */ = {
 			isa = PBXGroup;
 			children = (
-				04F6247C1CAA23CE001AFAE1 /* AppDelegate.h */,
-				04F6247D1CAA23CE001AFAE1 /* AppDelegate.m */,
+				04F624B51CAA2B1B001AFAE1 /* SingleColor.h */,
+				04F624B61CAA2B1B001AFAE1 /* SingleColor.m */,
 				04F6247F1CAA23CE001AFAE1 /* ViewController.h */,
 				04F624801CAA23CE001AFAE1 /* ViewController.m */,
-				04F624821CAA23CE001AFAE1 /* Main.storyboard */,
-				04F624851CAA23CE001AFAE1 /* Assets.xcassets */,
-				04F624871CAA23CE001AFAE1 /* LaunchScreen.storyboard */,
-				04F6248A1CAA23CE001AFAE1 /* Info.plist */,
+				04F624AC1CAA26AC001AFAE1 /* SecondViewController.h */,
+				04F624AD1CAA26AC001AFAE1 /* SecondViewController.m */,
+				04F624AF1CAA2756001AFAE1 /* ThirdViewController.h */,
+				04F624B01CAA2756001AFAE1 /* ThirdViewController.m */,
+				04F624B21CAA27B5001AFAE1 /* ForthViewController.h */,
+				04F624B31CAA27B5001AFAE1 /* ForthViewController.m */,
 				04F624791CAA23CE001AFAE1 /* Supporting Files */,
 			);
 			path = KVOPrac;
@@ -117,6 +131,12 @@
 		04F624791CAA23CE001AFAE1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04F6247C1CAA23CE001AFAE1 /* AppDelegate.h */,
+				04F6247D1CAA23CE001AFAE1 /* AppDelegate.m */,
+				04F624821CAA23CE001AFAE1 /* Main.storyboard */,
+				04F624851CAA23CE001AFAE1 /* Assets.xcassets */,
+				04F624871CAA23CE001AFAE1 /* LaunchScreen.storyboard */,
+				04F6248A1CAA23CE001AFAE1 /* Info.plist */,
 				04F6247A1CAA23CE001AFAE1 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -273,7 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F624AE1CAA26AC001AFAE1 /* SecondViewController.m in Sources */,
+				04F624B11CAA2756001AFAE1 /* ThirdViewController.m in Sources */,
+				04F624B41CAA27B5001AFAE1 /* ForthViewController.m in Sources */,
 				04F624811CAA23CE001AFAE1 /* ViewController.m in Sources */,
+				04F624B71CAA2B1B001AFAE1 /* SingleColor.m in Sources */,
 				04F6247E1CAA23CE001AFAE1 /* AppDelegate.m in Sources */,
 				04F6247B1CAA23CE001AFAE1 /* main.m in Sources */,
 			);

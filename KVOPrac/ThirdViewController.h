@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ThirdViewController.h
 //  KVOPrac
 //
 //  Created by Mac on 16/3/28.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface ThirdViewController : UIViewController
 
 @end
-
